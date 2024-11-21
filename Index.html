@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Weather Application</title>
+</head>
+<body>
+
+    <main>
+
+        <section id=screen>
+
+            <div class="search-sect">
+                
+                <input type="text" placeholder="Enter city name" id="search">
+
+                <div class="btn-con">
+                    <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+                </div>
+
+            </div>
+
+            <h4 class="city" id="city">City</h4>
+
+            <h1 id="degree">--°C</h1>
+
+            <h5>Temperature</h5>
+
+            <div class="weather-params-con">
+
+                <div class="weather-params">
+                    <p><span id="humidity">0 %</span><br> Humidity </p>
+                </div>
+
+                <div class="weather-params">
+                    <p><span id="wind">0 km/ph</span><br> Wind</p>
+                </div>
+
+                <div class="weather-params">
+                    <p><span id="feels-like">0</span><br>Feels Like</p>
+                </div>
+
+                <div class="weather-params">
+                    <p><span id="visibility">0 km</span><br> Visibility</p>
+                </div>
+
+                <div class="weather-params">
+                    <p><span id="pressure">0 hPa</span><br> Pressure</p>
+                </div>
+
+                <div class="weather-params">
+                    <p><span id="uv-index">0 mw</span><br> UV Index</p>
+                </div>
+      
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
